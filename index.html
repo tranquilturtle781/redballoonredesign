@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>
+        Red Balloon Bookshop
+    </title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:100,200,400,500,600,700,900' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:100,200,400,500,700,900' rel='stylesheet'>
+</head>
+<body>
+    <! header structure adapted from https://www.w3schools.com/howto/howto_js_topnav_responsive.asp >
+<div id="content-wrap">   
+<div class="topnav">
+  <div class="logo">
+    <div class="chunk">
+      <a href="#">Red Balloon Bookshop</a>
+    </div>
+    <div class="chunk">
+      <img src="images/balloon.png">
+    </div>
+    </div>
+  <i class="fa fa-bars fa-lg" aria-hidden="true" id="hamburger-menu-icon"></i>
+  <div class="menu">
+    <div class="dropdown">
+        <button class="dropbtn">About Us</button>
+        <div class="dropdown-content">
+            <a href="#">Red Balloon Story</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Hours & Directions</a>
+            <a href="#">FAQs</a>
+            <a href="#">Red Balloon Gives Back</a>
+            <a href="#">Work at Red Balloon</a>
+            <a href="#">Consignments</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">Events</button>
+        <div class="dropdown-content">
+          <a href="#">Events Schedule</a>
+          <a href="#">Storytimes</a>
+          <a href="#">Book Clubs</a>
+          <a href="#">Out and About</a>
+        </div>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Donations</button>
+    </div>
+    <div class="dropdown">
+        <button class="dropbtn">Other Happenings</button>
+        <div class="dropdown-content">
+            <a href="#">Parking Lot Pick-Up</a>
+            <a href="#">Shipping Information</a>
+            <a href="#">Monthly Newsletters</a>
+            <a href="#">2022 Summer Reading Challenge</a>
+            <a href="#">Red Balloon Book Drive</a>
+        </div>
+    </div>
+    <div class="dropdown">
+    <button class="dropbtn">For Schools</button>
+        <div class="dropdown-content">
+            <a href="#">Book Fairs</a>
+            <a href="#">School & Educator Benefits</a>
+            <a href="#">MHL & Star of the North Award Books</a>
+        </div>
+    </div>
+    |
+    <div class="dropdown">
+        <button class="dropbtn">Shop</button>
+            <div class="dropdown-content">
+                <a href="#">In-Person Shopping</a>
+                <a href="#">Books & Pre-orders</a>
+                <a href="#">Gifts & Toys</a>
+                <a href="#">Bookshop in a Box Subscription</a>
+                <a href="#">Gift Cards</a>
+                <a href="#">Red Balloon Merch</a>
+                <a href="#">Audiobooks</a>
+                <a href="#">eBooks</a>
+                <a href="#">Book Recommendations</a>
+                <a href="#">Gift Registries and Wishlists</a>
+            </div>
+        </div>
+      <div class="dropdown">
+        <button class="dropbtn">My Account</button>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn">
+            <i class="fa fa-shopping-cart"></i>
+        </button>
+      </div>
+  </div>
+</div>
+ <div class="main">
+    <div class="text-box">
+      <div class="text-head">
+        <h1>Welcome to the Online Store!</h1>
+      </div>
+      <div class="box">
+        <p>
+          At Red Balloon Bookshop, we have a great collection of books in our store. 
+          But did you know that we also have over 3 million titles available online?<br><br>
+          Whether you are shopping for babies, children, teens, or adults, you can find books for them by searching below. 
+          Books are available for in-store pick-up, national shipping, or parking lot pick-up.
+        </p>
+        <img src="images/books.png">
+      </div>
+      <button class="clicky">More About Online Shopping</button>
+    </div>
+    <h3>
+      Know what you're looking for? <strong>Search here</strong>:
+    </h3>
+    <form role="search" id="form">
+      <input type="search" id="query" name="q" placeholder="Title, author, subject, or ISBN" aria-label="Search through site content">
+      <button>
+        <svg viewBox="0 0 1024 1024"><path class="path1" d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z"></path></svg>
+      </button>
+    </form>
+    <button class="clicky">Advanced Search</button>
+    <div class="scroll1">
+      <h2>STAFF FAVORITES</h2>
+      <div class="scrollbooks">
+        <div class="book">
+          <img src="images/frogs.jpeg">
+          <div class="caption">
+            <b>A Spoonful of Frogs</b><br>
+            By Casey Lyall
+          </div>
+        </div>
+        <div class="book">
+          <img src="images/house.jpeg">
+          <div class="caption">
+            <b>Build a House</b><br>
+            By Rhiannon Giddens
+          </div>
+        </div>
+        <div class="book">
+          <img src="images/love.jpeg">
+          <div class="caption">
+            <b>Build a House</b><br>
+            By Muon Thi Van
+          </div>
+        </div>
+        <div class="book">
+          <img src="images/alex.jpeg">
+          <div class="caption">
+            <b>I Love You Because I Love You</b><br>
+            By KERASCOET
+          </div>
+        </div>
+        <button class="clicky">MORE <i class="fa fa-arrow-right fa-lg" aria-hidden="true"></i></button>
+      </div>
+      <br>
+      <p>Still can't decide? See <a href="#">recommendations</a> from One Book | One Minnesota, Read Brave Saint Paul, and more!</p>
+    </div>
+    <div class="text-box">
+      <h1>Pre-Order Books from Red Balloon</h1>
+      <p>
+        Pre-order select titles from indie bookstores (either online or in-person) and sometimes you can 
+        receive exclusive goodies (while supplies last)! <strong>Pre-orders must be prepaid to reserve swag, goodies, 
+        signed copies, etc.</strong> In cases where the author is able to personalize books or bookplates, please 
+        include any personalization requests in the order comments.
+      </p>
+      <div class="scroll">
+        <h2>AVAILABLE TITLES</h2>
+        <div class="scrollbooks">
+          <div class="book">
+            <div class="badimage">
+              <img src="images/ina.jpeg">
+            </div>
+            <div class="caption">
+              <b>Go-To Dinners: A Barefoot Contessa Cookbook</b><br>
+              By Ina Garten
+            </div>
+          </div>
+          <div class="book">
+            <img src="images/roof.jpeg">
+            <div class="caption">
+              <b>The Roof Over Our Heads</b><br>
+              By Nicole Kronzer
+            </div>
+          </div>
+          <div class="book">
+            <img src="images/out.jpeg">
+            <div class="caption">
+              <b>Out of Character</b><br>
+              By Jenna Miller
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+</div>
+</div>
+<footer class="footer">
+  <! footer placement strategy adapted from: https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/>
+  <div class="foot-piece">
+    Red Balloon Bookshop <br>
+    891 Grand Avenue <br>
+    Saint Paul, MN 55105 <br>
+    (651)224-8320
+  </div>
+  <div class="foot-piece">
+    HOURS: <br>
+    Tuesday-Saturday 10am-6pm <br>
+    Sunday 12pm-5pm <br>
+    CLOSED ON MONDAYS <br>
+  </div>
+  <div class="foot-piece">
+    <a href="#">About Us</a> |
+    <a href="#">Events</a> |
+    <a href="#">Donations</a> |
+    <a href="#">Other Happenings</a> |
+    <a href="#">For Schools</a> <br> <br>
+    <a href="#">Shop</a> |
+    <a href="#">Buy e-books on kobo</a>
+  </div>
+  <div class="socials">
+    <i class="fa fa-envelope fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+    <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+  </div>
+ </footer>
+</body>
+</html>

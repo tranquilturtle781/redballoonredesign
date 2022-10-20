@@ -1,0 +1,386 @@
+body {
+  background-color: #F1E9D6;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  font-weight: 400;
+}
+   
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+/* HEADER STUFF */
+
+.topnav {
+    background-color: #2b4370;
+    width: 95%;
+    font-size: 0.95rem;
+    color: white;
+    padding: .8% 2.5% .8% 2.5%;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+.topnav .menu {
+  float: right;
+}
+
+.topnav .logo .chunk {
+  min-width: max-content;
+  padding: 2%;
+  background-color: #2b4370;
+  color: white;
+  padding: 12px;
+  padding-right: 6px;
+  padding-left: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .logo {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+.topnav .menu a:hover {
+  background-color: #5c7bb4;
+  color: white;
+}
+
+.dropbtn {
+  background-color: #2b4370;
+  color: white;
+  padding: 16px;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
+  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Hidden dropdown */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3f5a8e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+  
+.dropdown-content a {
+  color: white;
+  text-align: left;
+  min-width: 130px;
+  padding: 12px 16px;
+  display: block;
+}
+
+.logo img {
+  max-width: 20px;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3f5a8e;
+}
+
+/* main content */
+
+.main {
+  background-color: white;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 2rem 3rem 2rem 3rem;
+  font-size: 1rem;
+  line-height: 2;
+}
+
+.text-box {
+  background-color: #E6EFF5;
+  max-width: 90%;
+  border-radius: 10px;
+  padding: 18px 7% 25px 7%;
+  margin: auto;
+  margin-bottom: 8%;
+  color: #2b3443;
+}
+
+.text-box h1 {
+  margin-bottom: 0.5%;
+}
+
+.box {
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+.box img {
+  max-width: 15%;
+  padding-left: 5%;
+}
+
+.main a {
+  color: #BD1B19;
+}
+
+.main a:hover {
+  color: #3f5a8e;
+}
+
+.clicky {
+  background-color: #BD1B19;
+  border-radius: 10px;
+  color: white;
+  padding: 8px;
+  min-width: max(80px, 3%);
+  border: none;
+  cursor: pointer;
+  margin: 2%;
+  margin-left: 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.text-box .clicky {
+  background-color: #2b4370;
+  padding: 2%;
+  margin: 1%;
+  margin-left: 0;
+}
+
+.text-box .clicky:hover {
+  background-color: #3f5a8e;
+}
+
+.clicky:hover {
+  background-color: #811312;
+}
+
+form {
+  background-color: #f3e3e374;
+  border: 2px solid #BD1B19;
+  border-radius: 10px;
+  max-width: 90%;
+  height: 40px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+}
+
+form:focus-within {
+  background-color: white;
+}
+
+input {
+  all: unset;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+svg {
+  color: #BD1B19;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  padding-right: 2px;
+  float: right;
+  display: block;
+}
+
+form button {
+  background: none;
+  float: right;
+  border: none;
+  cursor: pointer;
+}
+
+.scrollbooks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 25px;
+  max-width: 100%;
+}
+
+.book {
+  width: auto;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+  text-align: center;
+}
+
+.book img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.scrollbooks .clicky {
+  width: 20%;
+  height:min-content;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.scroll {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.scroll1 {
+  padding-top: 2%;
+  padding-bottom: 8%;
+}
+
+.caption {
+  line-height: 1.5;
+  padding-top: 10px;
+}
+
+.badimage {
+  width: 96%;
+  padding-bottom: 0;
+}
+
+#content-wrap {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 1rem;
+}
+
+/* footer */
+
+.footer {
+  position: relative;
+  bottom: 0;
+  width: 90%;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #2b4370;
+  font-size: 0.85rem;
+  color: white;
+  
+}
+
+ .foot-piece {
+  text-align: center;
+  width: 24%;
+  height: 70%;
+  padding: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-top: 1.5rem;
+  border-right: white 1px solid;
+  line-height: 1.5;
+  overflow: auto;
+ }
+
+ .footer a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer a:hover {
+  color: #BD1B19;
+}
+
+.footer i:hover {
+  color: #BD1B19;
+}
+
+.socials {
+  margin-top: 1rem;
+  padding: 0.5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 4%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.socials i {
+  padding-bottom: 20%;
+}
+
+/* now make it responsive */
+#hamburger-menu-icon {
+  display: none;
+  padding: 14px;
+  float: right;
+}
+
+@media (max-width: 1150px) {
+  #hamburger-menu-icon {
+    display: flex;
+    cursor: pointer;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .scrollbooks {
+    flex-wrap: wrap;
+  }
+  .book {
+    max-width: 30%;
+  }
+  .box {
+    flex-wrap: wrap;
+  }
+  .box img {
+    display: none;
+  }
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .foot-piece {
+    border: none;
+    width: max-content;
+    max-width: 100%;
+  }
+  .socials {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .socials i {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
