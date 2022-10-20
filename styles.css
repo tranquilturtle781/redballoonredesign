@@ -109,6 +109,10 @@ h1 {
   background-color: #3f5a8e;
 }
 
+#vert {
+  display: inline-block;
+}
+
 /* main content */
 
 .main {
@@ -348,7 +352,22 @@ form button {
     display: flex;
     cursor: pointer;
   }
+
   .menu {
+    display: none;
+  }
+
+  .switch:hover .menu {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+  }
+
+  .switch:hover .dropdown-content {
+    display:none;
+  }
+
+  .switch:hover #vert {
     display: none;
   }
 }
